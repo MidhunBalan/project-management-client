@@ -1,4 +1,4 @@
-#Project Notes:
+# Project Notes:
 In this project, I am using redux dependency. 
 
 ## Important Concept in Redux
