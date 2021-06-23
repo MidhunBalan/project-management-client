@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+#Project Notes:
+In this project, I am using redux dependency. 
+
+## Important Concept in Redux
+
+1. action
+2. reducer
+3. store
+
+## action
+
+Actions are plain JavaScript objects that have a type field. As mentioned earlier, you can think of an action as an event that describes something that happened in the application.
+https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers
+
+## Reducer 
+
+Reducers are functions that take the current state and an action as arguments, and return a new state result. In other words, (state, action) => newState.
+https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers
+
+## What is redux store
+The Redux store brings together the state, actions, and reducers that make up your app. The store has several responsibilities:
+
+* Holds the current application state inside
+* Allows access to the current state via store.getState();
+* Allows state to be updated via store.dispatch(action);
+* Registers listener callbacks via store.subscribe(listener);
+* Handles unregistering of listeners via the unsubscribe function returned by store.subscribe(listener).
+Reference: 
+  https://redux.js.org/tutorials/fundamentals/part-4-store
+ 
+# React Basics
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
