@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ProjectItem from './project/ProjectItem';
-import Header from './layout/Header';
 import CreateProjectButton from './project/CreateProjectButton';
 import {connect} from 'react-redux';
 import { getProjects } from "../actions/projectActions";
